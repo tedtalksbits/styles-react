@@ -1,0 +1,40 @@
+.vh-100{
+   min-block-size: 100vh;
+}
+section{
+   min-block-size: 100vh;
+   /* margin-inline: var(--xl); */
+}
+
+img{
+   object-fit: cover;
+   height: 400px;
+   width: 100%;
+   aspect-ratio: 1/1;
+}
+a{
+   text-decoration: none;
+   display: block;
+}
+
+button{
+   border: none;
+   cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+   .flex-h{
+      flex-direction: column;
+   }
+}
+
+.absolute{
+   position: absolute;
+}
+.relative{
+   position: relative;
+}
+
+.blur-xl{
+   backdrop-filter: blur(10px);
+}
